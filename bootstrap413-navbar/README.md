@@ -42,12 +42,24 @@ button.navbar-toggle[data-toggle="collapse" data-target="#navbarMenu"]
 ```
 
 ```html
-    
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a href="#" class="navbar-brand">MyPage</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+        <a href="#link1" class="nav-link">Link 1</a>
+        </li>
+        <li class="nav-item">
+        <a href="#link2" class="nav-link">Link 2</a>
+        </li>
+    </ul>
+    </div>
+</nav>
 ```
 
-```html
-
-```
 [Official Documentation](https://getbootstrap.com/docs/4.1/components/navbar/)
 
 [Reference](https://youtu.be/23bpce-5s8I)
