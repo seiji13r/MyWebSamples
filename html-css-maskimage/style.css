@@ -1,0 +1,53 @@
+.container {
+  border: 1px solid black;
+}
+
+.custom-col {
+  border: 1px solid green;
+}
+
+.img-wrapper img {
+    margin: 10px;
+    border: 1px solid lightblue;
+    padding: 10px;
+    /*  */
+    object-fit: cover; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    width: 100%;
+    /* Fix the hight proportionally to the ViewPort or Fix It */
+    /* height: 33vh; */
+    height: 200px;
+  }
+
+  /* ######################################################################## */
+
+  .img-wrapper2 {
+    margin: 10px;
+    border: 1px solid red;
+    padding: 10px;
+  }
+  
+  .img-wrapper2 img {
+    /*  */
+    object-fit: cover; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    width: 100%;
+    /* Fix the hight proportionally to the ViewPort or Fix It */
+    height: 33vh;
+    /* height: 200px; */
+  }
+
+  /* ######################################################################## */
+  
+  .img-no-wrapper {
+    margin: 10px;
+    border: 1px solid lightgreen;
+    padding: 10px;
+    /*  */
+    object-fit: cover; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    width: 100%;
+    /* Fix the hight proportionally to the ViewPort or Fix It */
+    /* height: 33vh; */
+    height: 200px;
+  }
